@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a; /* Fondo oscuro estilo cyberpunk */
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, footer {
+    background-color: #1b004b;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+footer {
+    background-color: #2f3f44;
+}
+
+.parrafo {
+    text-align: center;
+    width: 500px;
+    background-color: #4900FF; /* Morado */
+    color: #FF00F0; /* Rosa neón */
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 10px;
+    border: 2px solid #FFED00; /* Amarillo */
+    box-shadow: 0 0 10px #FF00F0;
+}
+
+#nodo, #contenido {
+    margin: 20px;
+    padding: 10px;
+    background-color: #310f82; /* Fondo morado */
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    color: #FFED00; /* Amarillo */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF00F0; /* Rosa neón al pasar por encima */
+}
+
+section {
+    margin-top: 10px;
+    border: 2px solid #FF003C; /* Rojo */
+    padding: 20px;
+}
+
+article {
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #8a2be2;
+    text-align: center;
+    vertical-align: top;
+    background-color: #0f004f; /* Azul oscuro */
+    color: #fff;
+    margin: 10px auto; /* Centrar */
+    box-shadow: 0 0 20px #FF00F0;
+}
+
+.encabezado {
+    text-align: center;
+    background-color: #ff005a; /* Rojo brillante */
+    color: #30e557; /* Verde eléctrico */
+}
+
+.texto {
+    font-size: 30px;
+    font-weight: bold;
+    color: #098c8c;
+    line-height: 200px;
+}
+
+img {
+    width: 200px;
+}
